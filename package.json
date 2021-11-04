@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-zettabyte",
+  "version": "1.0.0",
+  "description": "Restfull CRUD API with Node.js, express and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "Muhammad Suryono",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "mongoose-paginate-v2": "^1.4.2"
+  }
+}
